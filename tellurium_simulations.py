@@ -3,7 +3,7 @@ import pandas as pd
 
 import copy
 import random
-import sys
+import os
 
 
 def completion_check(result, index):
@@ -50,11 +50,11 @@ def completion_check(result, index):
     return False
 
 # define step size (how many simulation steps ahead the model should predict [default: 1])
-step_sizes = [1, 5, 10, 20]
+step_sizes = [7]
 
 # define number of simulations and steps per simulation
-num_simulations = 10000
-num_OOD_simulations = 2000
+num_simulations = 10
+num_OOD_simulations = 20
 num_simulation_steps = 100
 
 for step_size in step_sizes:
@@ -180,6 +180,11 @@ for step_size in step_sizes:
         if c % ((num_simulations + num_OOD_simulations) / 10) == 0:
             print(f"{100*(c / (num_simulations + num_OOD_simulations))}% Complete")
 
+    # Create the evaluation plot directory, if necessary
+    datasets_dir = "datasets/"
+    if not os.path.exists(datasets_dir):
+        os.mkdir(datasets_dir)
+
     # write dataset to csv
-    dataset.to_csv(f"tellurium_dataset_step_{step_size}.csv", index=False)
-    OOD_dataset.to_csv(f"tellurium_OOD_dataset_step_{step_size}.csv", index=False)
+    dataset.to_csv(f"{datasets_dir}tellurium_dataset_step_{step_size}.csv", index=False)
+    OOD_dataset.to_csv(f"{datasets_dir}tellurium_OOD_dataset_step_{step_size}.csv", index=False)

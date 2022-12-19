@@ -6,13 +6,14 @@ import pandas as pd
 import wandb
 
 import math
+import os
 
 class SimulationDataset(Dataset):
     def __init__(self, step_size, OOD=False):
         if not OOD:
-            self.data = pd.read_csv(f"tellurium_dataset_step_{step_size}.csv")
+            self.data = pd.read_csv(f"datasets/tellurium_dataset_step_{step_size}.csv")
         else:
-            self.data = pd.read_csv(f"tellurium_OOD_dataset_step_{step_size}.csv")
+            self.data = pd.read_csv(f"datasets/tellurium_OOD_dataset_step_{step_size}.csv")
 
 
     def __len__(self):
@@ -154,14 +155,19 @@ if __name__ == "__main__":
         project="de-solver",
         config={
             "learning_rate": 0.001,
-            "epochs": 20,
+            "epochs": 2,
             "batch_size": 32,
-            "step_size": 1
+            "step_size": 7
         }
     )
 
     # train model
     model = train_model(**wandb.config)
 
+    # Create the model weights directory, if necessary
+    weights_dir = "model_weights/"
+    if not os.path.exists(weights_dir):
+        os.mkdir(weights_dir)
+
     # save model weights
-    torch.save(model.state_dict(), f"model_step_{wandb.config.step_size}.p")
+    torch.save(model.state_dict(), f"{weights_dir}model_step_{wandb.config.step_size}.p")

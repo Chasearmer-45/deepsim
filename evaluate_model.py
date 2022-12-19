@@ -14,7 +14,6 @@ from collections import namedtuple
 import copy
 import math
 import random
-import sys
 import shutil
 import time
 import os
@@ -55,7 +54,7 @@ for step_size in step_sizes:
 
     # load the neural network model
     model = NeuralNetwork()
-    model.load_state_dict(torch.load(f"model_step_{step_size}.p"))
+    model.load_state_dict(torch.load(f"model_weights/model_step_{step_size}.p"))
     model.eval()
 
     # define the systems model
