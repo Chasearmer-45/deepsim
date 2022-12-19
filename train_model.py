@@ -155,9 +155,9 @@ if __name__ == "__main__":
         project="de-solver",
         config={
             "learning_rate": 0.001,
-            "epochs": 2,
+            "epochs": 20,
             "batch_size": 32,
-            "step_size": 7
+            "step_size": 1
         }
     )
 

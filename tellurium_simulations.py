@@ -50,11 +50,11 @@ def completion_check(result, index):
     return False
 
 # define step size (how many simulation steps ahead the model should predict [default: 1])
-step_sizes = [7]
+step_sizes = [1, 5, 10, 20]
 
 # define number of simulations and steps per simulation
-num_simulations = 10
-num_OOD_simulations = 20
+num_simulations = 10000
+num_OOD_simulations = 2000
 num_simulation_steps = 100
 
 for step_size in step_sizes:
