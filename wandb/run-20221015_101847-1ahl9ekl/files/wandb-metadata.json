@@ -1,0 +1,16 @@
+{
+    "os": "Darwin-20.6.0-x86_64-i386-64bit",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-10-15T17:18:47.686093",
+    "startedAt": "2022-10-15T17:18:47.304161",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train_model.py",
+    "codePath": "train_model.py",
+    "host": "Chases-MacBook-Pro.local",
+    "username": "chasearmer",
+    "executable": "/Users/chasearmer/miniconda3/envs/tellurium/bin/python"
+}

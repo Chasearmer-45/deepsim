@@ -1,0 +1,91 @@
+Shape of X: torch.Size([32, 31])
+Shape of y: torch.Size([32, 5]) torch.float32
+Using cpu device
+NeuralNetwork(
+  (linear_relu_stack): Sequential(
+    (0): Linear(in_features=31, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=5, bias=True)
+  )
+)
+Epoch 1
+-------------------------------
+train loss: 8243.462891  [    0/15900]
+train loss: 94.836693  [ 3200/15900]
+train loss: 17.140110  [ 6400/15900]
+train loss: 20.609137  [ 9600/15900]
+train loss: 5.218082  [12800/15900]
+Avg validation loss: 7.295511
+Epoch 2
+-------------------------------
+train loss: 5.422202  [    0/15900]
+train loss: 3.316713  [ 3200/15900]
+train loss: 18.385263  [ 6400/15900]
+train loss: 8.586226  [ 9600/15900]
+train loss: 12.391223  [12800/15900]
+Avg validation loss: 6.372018
+Epoch 3
+-------------------------------
+train loss: 5.675933  [    0/15900]
+train loss: 5.697731  [ 3200/15900]
+train loss: 2.663097  [ 6400/15900]
+train loss: 10.188502  [ 9600/15900]
+train loss: 7.699886  [12800/15900]
+Avg validation loss: 5.946343
+Epoch 4
+-------------------------------
+train loss: 2.688925  [    0/15900]
+train loss: 6.414134  [ 3200/15900]
+train loss: 5.285003  [ 6400/15900]
+train loss: 3.567083  [ 9600/15900]
+train loss: 9.894958  [12800/15900]
+Avg validation loss: 5.495355
+Epoch 5
+-------------------------------
+train loss: 3.751969  [    0/15900]
+train loss: 3.505459  [ 3200/15900]
+train loss: 3.245356  [ 6400/15900]
+train loss: 5.042531  [ 9600/15900]
+train loss: 5.126398  [12800/15900]
+Avg validation loss: 5.126814
+Epoch 6
+-------------------------------
+train loss: 4.309643  [    0/15900]
+train loss: 3.686368  [ 3200/15900]
+train loss: 5.437596  [ 6400/15900]
+train loss: 5.449819  [ 9600/15900]
+train loss: 4.022323  [12800/15900]
+Avg validation loss: 4.469831
+Epoch 7
+-------------------------------
+train loss: 2.209932  [    0/15900]
+train loss: 4.935782  [ 3200/15900]
+train loss: 5.212383  [ 6400/15900]
+train loss: 8.252134  [ 9600/15900]
+train loss: 6.103443  [12800/15900]
+Avg validation loss: 4.442442
+Epoch 8
+-------------------------------
+train loss: 2.250453  [    0/15900]
+train loss: 5.846771  [ 3200/15900]
+train loss: 3.464970  [ 6400/15900]
+train loss: 3.458273  [ 9600/15900]
+train loss: 3.771755  [12800/15900]
+Avg validation loss: 4.691039
+Epoch 9
+-------------------------------
+train loss: 4.920582  [    0/15900]
+train loss: 4.075069  [ 3200/15900]
+train loss: 3.773126  [ 6400/15900]
+train loss: 4.480962  [ 9600/15900]
+train loss: 1.368611  [12800/15900]
+Avg validation loss: 4.265273
+Epoch 10
+-------------------------------
+train loss: 2.246174  [    0/15900]
+train loss: 3.523064  [ 3200/15900]
+train loss: 3.252488  [ 6400/15900]
+train loss: 3.781097  [ 9600/15900]
+train loss: 3.535464  [12800/15900]
+Avg validation loss: 5.151901
+Done!

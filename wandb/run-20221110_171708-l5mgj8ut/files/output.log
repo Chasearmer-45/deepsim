@@ -1,0 +1,219 @@
+Shape of X: torch.Size([32, 31])
+Shape of y: torch.Size([32, 5]) torch.float32
+Using cpu device
+NeuralNetwork(
+  (linear_relu_stack): Sequential(
+    (0): Linear(in_features=31, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=64, out_features=64, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=64, out_features=5, bias=True)
+  )
+)
+Epoch 1
+-------------------------------
+train loss: 4885.762695  [    0/30265]
+train loss: 350.815918  [ 3200/30265]
+train loss: 45.541786  [ 6400/30265]
+train loss: 19.769955  [ 9600/30265]
+train loss: 10.091856  [12800/30265]
+train loss: 9.756862  [16000/30265]
+train loss: 13.647717  [19200/30265]
+train loss: 18.844604  [22400/30265]
+train loss: 14.643346  [25600/30265]
+train loss: 7.648918  [28800/30265]
+Avg validation loss: 8.944339
+Epoch 2
+-------------------------------
+train loss: 7.864314  [    0/30265]
+train loss: 6.019519  [ 3200/30265]
+train loss: 5.791796  [ 6400/30265]
+train loss: 6.632046  [ 9600/30265]
+train loss: 8.114626  [12800/30265]
+train loss: 8.001577  [16000/30265]
+train loss: 4.252432  [19200/30265]
+train loss: 6.463962  [22400/30265]
+train loss: 5.556438  [25600/30265]
+train loss: 8.206848  [28800/30265]
+Avg validation loss: 6.964844
+Epoch 3
+-------------------------------
+train loss: 8.144501  [    0/30265]
+train loss: 5.699124  [ 3200/30265]
+train loss: 3.238932  [ 6400/30265]
+train loss: 5.139951  [ 9600/30265]
+train loss: 5.588298  [12800/30265]
+train loss: 4.950337  [16000/30265]
+train loss: 4.875176  [19200/30265]
+train loss: 5.419867  [22400/30265]
+train loss: 3.451063  [25600/30265]
+train loss: 4.618311  [28800/30265]
+Avg validation loss: 10.032310
+Epoch 4
+-------------------------------
+train loss: 7.340267  [    0/30265]
+train loss: 7.075488  [ 3200/30265]
+train loss: 5.531147  [ 6400/30265]
+train loss: 3.375238  [ 9600/30265]
+train loss: 5.522701  [12800/30265]
+train loss: 8.067850  [16000/30265]
+train loss: 16.535284  [19200/30265]
+train loss: 9.156219  [22400/30265]
+train loss: 9.317949  [25600/30265]
+train loss: 9.897457  [28800/30265]
+Avg validation loss: 6.755484
+Epoch 5
+-------------------------------
+train loss: 6.414512  [    0/30265]
+train loss: 13.032991  [ 3200/30265]
+train loss: 9.811996  [ 6400/30265]
+train loss: 10.499366  [ 9600/30265]
+train loss: 5.757836  [12800/30265]
+train loss: 9.722391  [16000/30265]
+train loss: 4.287066  [19200/30265]
+train loss: 16.214443  [22400/30265]
+train loss: 3.216188  [25600/30265]
+train loss: 9.401956  [28800/30265]
+Avg validation loss: 8.182472
+Epoch 6
+-------------------------------
+train loss: 4.577898  [    0/30265]
+train loss: 9.163328  [ 3200/30265]
+train loss: 9.274673  [ 6400/30265]
+train loss: 14.601544  [ 9600/30265]
+train loss: 8.650421  [12800/30265]
+train loss: 4.148026  [16000/30265]
+train loss: 4.093540  [19200/30265]
+train loss: 4.524265  [22400/30265]
+train loss: 3.450038  [25600/30265]
+train loss: 9.457279  [28800/30265]
+Avg validation loss: 8.934402
+Epoch 7
+-------------------------------
+train loss: 5.563360  [    0/30265]
+train loss: 3.363314  [ 3200/30265]
+train loss: 11.226414  [ 6400/30265]
+train loss: 5.137856  [ 9600/30265]
+train loss: 6.517411  [12800/30265]
+train loss: 4.488765  [16000/30265]
+train loss: 5.231423  [19200/30265]
+train loss: 6.825569  [22400/30265]
+train loss: 11.196985  [25600/30265]
+train loss: 3.966507  [28800/30265]
+Avg validation loss: 5.624568
+Epoch 8
+-------------------------------
+train loss: 7.504221  [    0/30265]
+train loss: 6.494960  [ 3200/30265]
+train loss: 13.031354  [ 6400/30265]
+train loss: 4.236480  [ 9600/30265]
+train loss: 5.470290  [12800/30265]
+train loss: 5.869040  [16000/30265]
+train loss: 6.200822  [19200/30265]
+train loss: 15.001381  [22400/30265]
+train loss: 8.606542  [25600/30265]
+train loss: 5.076062  [28800/30265]
+Avg validation loss: 5.521070
+Epoch 9
+-------------------------------
+train loss: 3.153613  [    0/30265]
+train loss: 5.710434  [ 3200/30265]
+train loss: 6.936618  [ 6400/30265]
+train loss: 9.754608  [ 9600/30265]
+train loss: 7.347449  [12800/30265]
+train loss: 3.528448  [16000/30265]
+train loss: 6.654862  [19200/30265]
+train loss: 4.977309  [22400/30265]
+train loss: 6.396559  [25600/30265]
+train loss: 5.767461  [28800/30265]
+Avg validation loss: 7.098405
+Epoch 10
+-------------------------------
+train loss: 4.812842  [    0/30265]
+train loss: 7.920152  [ 3200/30265]
+train loss: 8.187158  [ 6400/30265]
+train loss: 6.282718  [ 9600/30265]
+train loss: 4.276851  [12800/30265]
+train loss: 6.269275  [16000/30265]
+train loss: 1.913376  [19200/30265]
+train loss: 9.901300  [22400/30265]
+train loss: 4.261473  [25600/30265]
+train loss: 10.712094  [28800/30265]
+Avg validation loss: 5.386204
+Epoch 11
+-------------------------------
+train loss: 5.697566  [    0/30265]
+train loss: 6.458898  [ 3200/30265]
+train loss: 3.743761  [ 6400/30265]
+train loss: 9.982435  [ 9600/30265]
+train loss: 3.989297  [12800/30265]
+train loss: 2.819876  [16000/30265]
+train loss: 4.017828  [19200/30265]
+train loss: 4.565382  [22400/30265]
+train loss: 4.096710  [25600/30265]
+train loss: 5.457064  [28800/30265]
+Avg validation loss: 10.788351
+Epoch 12
+-------------------------------
+train loss: 12.234091  [    0/30265]
+train loss: 4.638560  [ 3200/30265]
+train loss: 5.702877  [ 6400/30265]
+train loss: 4.938437  [ 9600/30265]
+train loss: 4.242671  [12800/30265]
+train loss: 10.417987  [16000/30265]
+train loss: 4.666775  [19200/30265]
+train loss: 8.289519  [22400/30265]
+train loss: 10.123253  [25600/30265]
+train loss: 4.879215  [28800/30265]
+Avg validation loss: 9.206403
+Epoch 13
+-------------------------------
+train loss: 5.806296  [    0/30265]
+train loss: 4.420985  [ 3200/30265]
+train loss: 3.032524  [ 6400/30265]
+train loss: 6.402032  [ 9600/30265]
+train loss: 4.077323  [12800/30265]
+train loss: 4.127513  [16000/30265]
+train loss: 5.675942  [19200/30265]
+train loss: 5.934955  [22400/30265]
+train loss: 2.247831  [25600/30265]
+train loss: 6.524541  [28800/30265]
+Avg validation loss: 9.941517
+Epoch 14
+-------------------------------
+train loss: 8.125193  [    0/30265]
+train loss: 6.553774  [ 3200/30265]
+train loss: 7.873361  [ 6400/30265]
+train loss: 7.269959  [ 9600/30265]
+train loss: 3.120373  [12800/30265]
+train loss: 6.910226  [16000/30265]
+train loss: 5.674682  [19200/30265]
+train loss: 3.591354  [22400/30265]
+train loss: 2.436481  [25600/30265]
+train loss: 9.010685  [28800/30265]
+Traceback (most recent call last):
+  File "train_model.py", line 149, in <module>
+    model = train_model(**wandb.config)
+  File "train_model.py", line 130, in train_model
+    validate(test_dataloader, model, loss_fn, device)
+  File "train_model.py", line 83, in validate
+    for X, y in dataloader:
+  File "/Users/chasearmer/miniconda3/envs/tellurium/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 652, in __next__
+    data = self._next_data()
+  File "/Users/chasearmer/miniconda3/envs/tellurium/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 692, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/Users/chasearmer/miniconda3/envs/tellurium/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/chasearmer/miniconda3/envs/tellurium/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/Users/chasearmer/miniconda3/envs/tellurium/lib/python3.7/site-packages/torch/utils/data/dataset.py", line 290, in __getitem__
+    return self.dataset[self.indices[idx]]
+  File "train_model.py", line 19, in __getitem__
+    X, Y = item[:31], item[31:]
+  File "/Users/chasearmer/miniconda3/envs/tellurium/lib/python3.7/site-packages/pandas/core/series.py", line 966, in __getitem__
+    return self._get_with(key)
+  File "/Users/chasearmer/miniconda3/envs/tellurium/lib/python3.7/site-packages/pandas/core/series.py", line 973, in _get_with
+    slobj = self.index._convert_slice_indexer(key, kind="getitem")
+KeyboardInterrupt

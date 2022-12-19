@@ -1,0 +1,45 @@
+2022-11-10 17:20:17,373 INFO    MainThread:32785 [wandb_setup.py:_flush():76] Configure stats pid to 32785
+2022-11-10 17:20:17,373 INFO    MainThread:32785 [wandb_setup.py:_flush():76] Loading settings from /Users/chasearmer/.config/wandb/settings
+2022-11-10 17:20:17,373 INFO    MainThread:32785 [wandb_setup.py:_flush():76] Loading settings from /Users/chasearmer/metabolomics/DeepSim/wandb/settings
+2022-11-10 17:20:17,373 INFO    MainThread:32785 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-10 17:20:17,373 INFO    MainThread:32785 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train_model.py', 'program': 'train_model.py'}
+2022-11-10 17:20:17,373 INFO    MainThread:32785 [wandb_init.py:_log_setup():461] Logging user logs to /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221110_172017-tiigsqfl/logs/debug.log
+2022-11-10 17:20:17,373 INFO    MainThread:32785 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221110_172017-tiigsqfl/logs/debug-internal.log
+2022-11-10 17:20:17,373 INFO    MainThread:32785 [wandb_init.py:init():495] calling init triggers
+2022-11-10 17:20:17,373 INFO    MainThread:32785 [wandb_init.py:init():499] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'epochs': 20, 'batch_size': 32}
+2022-11-10 17:20:17,373 INFO    MainThread:32785 [wandb_init.py:init():548] starting backend
+2022-11-10 17:20:17,373 INFO    MainThread:32785 [wandb_init.py:init():552] setting up manager
+2022-11-10 17:20:17,376 INFO    MainThread:32785 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-11-10 17:20:17,378 INFO    MainThread:32785 [wandb_init.py:init():558] backend started and connected
+2022-11-10 17:20:17,379 INFO    MainThread:32785 [wandb_init.py:init():636] updated telemetry
+2022-11-10 17:20:17,380 INFO    MainThread:32785 [wandb_init.py:init():668] communicating run to backend with 30 second timeout
+2022-11-10 17:20:17,710 INFO    MainThread:32785 [wandb_run.py:_on_init():1981] communicating current version
+2022-11-10 17:20:17,841 INFO    MainThread:32785 [wandb_run.py:_on_init():1985] got version response upgrade_message: "wandb version 0.13.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-11-10 17:20:17,841 INFO    MainThread:32785 [wandb_init.py:init():700] starting run threads in backend
+2022-11-10 17:20:22,859 INFO    MainThread:32785 [wandb_run.py:_console_start():1961] atexit reg
+2022-11-10 17:20:22,859 INFO    MainThread:32785 [wandb_run.py:_redirect():1819] redirect: SettingsConsole.WRAP_RAW
+2022-11-10 17:20:22,859 INFO    MainThread:32785 [wandb_run.py:_redirect():1884] Wrapping output streams.
+2022-11-10 17:20:22,859 INFO    MainThread:32785 [wandb_run.py:_redirect():1906] Redirects installed.
+2022-11-10 17:20:22,859 INFO    MainThread:32785 [wandb_init.py:init():732] run started, returning control to user process
+2022-11-10 17:20:31,178 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:20:39,929 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:20:49,002 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:20:58,557 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:21:08,479 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:21:18,732 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:21:29,202 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:21:39,853 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:21:50,257 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:22:00,650 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:22:10,731 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:22:21,100 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:22:31,660 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:22:42,098 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:22:52,706 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:23:03,483 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:23:14,274 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:23:24,775 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:23:35,427 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching
+2022-11-10 17:23:46,225 INFO    MainThread:32785 [wandb_watch.py:watch():47] Watching

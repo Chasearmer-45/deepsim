@@ -1,0 +1,52 @@
+Shape of X: torch.Size([16, 3])
+Shape of y: torch.Size([16, 2]) torch.float32
+Using cpu device
+NeuralNetwork(
+  (linear_relu_stack): Sequential(
+    (0): Linear(in_features=3, out_features=16, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=16, out_features=16, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=16, out_features=16, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=16, out_features=16, bias=True)
+    (7): ReLU()
+    (8): Linear(in_features=16, out_features=2, bias=True)
+  )
+)
+Epoch 1
+-------------------------------
+train loss: 5270.588379  [    0/ 6280]
+train loss: 298.930267  [ 1600/ 6280]
+train loss: 107.901978  [ 3200/ 6280]
+train loss: 138.370743  [ 4800/ 6280]
+Avg test loss: 108.573564
+Epoch 2
+-------------------------------
+train loss: 112.966805  [    0/ 6280]
+train loss: 249.367752  [ 1600/ 6280]
+train loss: 75.712273  [ 3200/ 6280]
+train loss: 60.882893  [ 4800/ 6280]
+Avg test loss: 43.315462
+Epoch 3
+-------------------------------
+train loss: 8.343822  [    0/ 6280]
+train loss: 9.258792  [ 1600/ 6280]
+train loss: 33.302509  [ 3200/ 6280]
+train loss: 69.663673  [ 4800/ 6280]
+Avg test loss: 23.505898
+Epoch 4
+-------------------------------
+train loss: 20.042177  [    0/ 6280]
+train loss: 10.788573  [ 1600/ 6280]
+train loss: 11.450346  [ 3200/ 6280]
+train loss: 6.928425  [ 4800/ 6280]
+Avg test loss: 12.246494
+Epoch 5
+-------------------------------
+train loss: 61.854275  [    0/ 6280]
+train loss: 31.421387  [ 1600/ 6280]
+train loss: 7.341941  [ 3200/ 6280]
+train loss: 6.312316  [ 4800/ 6280]
+Avg test loss: 17.972476
+Done!

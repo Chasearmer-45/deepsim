@@ -1,0 +1,41 @@
+2022-10-25 16:37:18,205 INFO    MainThread:13324 [wandb_setup.py:_flush():76] Configure stats pid to 13324
+2022-10-25 16:37:18,205 INFO    MainThread:13324 [wandb_setup.py:_flush():76] Loading settings from /Users/chasearmer/.config/wandb/settings
+2022-10-25 16:37:18,206 INFO    MainThread:13324 [wandb_setup.py:_flush():76] Loading settings from /Users/chasearmer/metabolomics/DeepSim/wandb/settings
+2022-10-25 16:37:18,206 INFO    MainThread:13324 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-10-25 16:37:18,206 INFO    MainThread:13324 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train_model.py', 'program': 'train_model.py'}
+2022-10-25 16:37:18,206 INFO    MainThread:13324 [wandb_init.py:_log_setup():461] Logging user logs to /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221025_163718-tmk7vgwf/logs/debug.log
+2022-10-25 16:37:18,206 INFO    MainThread:13324 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221025_163718-tmk7vgwf/logs/debug-internal.log
+2022-10-25 16:37:18,206 INFO    MainThread:13324 [wandb_init.py:init():495] calling init triggers
+2022-10-25 16:37:18,206 INFO    MainThread:13324 [wandb_init.py:init():499] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0001, 'epochs': 15, 'batch_size': 32}
+2022-10-25 16:37:18,206 INFO    MainThread:13324 [wandb_init.py:init():548] starting backend
+2022-10-25 16:37:18,206 INFO    MainThread:13324 [wandb_init.py:init():552] setting up manager
+2022-10-25 16:37:18,209 INFO    MainThread:13324 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-10-25 16:37:18,211 INFO    MainThread:13324 [wandb_init.py:init():558] backend started and connected
+2022-10-25 16:37:18,212 INFO    MainThread:13324 [wandb_init.py:init():636] updated telemetry
+2022-10-25 16:37:18,213 INFO    MainThread:13324 [wandb_init.py:init():668] communicating run to backend with 30 second timeout
+2022-10-25 16:37:18,518 INFO    MainThread:13324 [wandb_run.py:_on_init():1981] communicating current version
+2022-10-25 16:37:18,637 INFO    MainThread:13324 [wandb_run.py:_on_init():1985] got version response upgrade_message: "wandb version 0.13.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-10-25 16:37:18,637 INFO    MainThread:13324 [wandb_init.py:init():700] starting run threads in backend
+2022-10-25 16:37:23,654 INFO    MainThread:13324 [wandb_run.py:_console_start():1961] atexit reg
+2022-10-25 16:37:23,655 INFO    MainThread:13324 [wandb_run.py:_redirect():1819] redirect: SettingsConsole.WRAP_RAW
+2022-10-25 16:37:23,655 INFO    MainThread:13324 [wandb_run.py:_redirect():1884] Wrapping output streams.
+2022-10-25 16:37:23,655 INFO    MainThread:13324 [wandb_run.py:_redirect():1906] Redirects installed.
+2022-10-25 16:37:23,655 INFO    MainThread:13324 [wandb_init.py:init():732] run started, returning control to user process
+2022-10-25 16:37:26,543 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:37:29,235 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:37:31,931 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:37:34,655 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:37:37,366 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:37:40,122 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:37:42,946 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:37:45,807 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:37:48,687 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:37:51,568 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:37:54,470 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:37:57,706 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:38:00,653 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:38:03,654 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:38:06,648 INFO    MainThread:13324 [wandb_watch.py:watch():47] Watching
+2022-10-25 16:38:14,376 WARNING MsgRouterThr:13324 [router.py:message_loop():76] message_loop has been closed

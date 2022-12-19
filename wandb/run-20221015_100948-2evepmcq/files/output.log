@@ -1,0 +1,48 @@
+Shape of X: torch.Size([32, 14])
+Shape of y: torch.Size([32, 2]) torch.float32
+Using cpu device
+NeuralNetwork(
+  (linear_relu_stack): Sequential(
+    (0): Linear(in_features=14, out_features=16, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=16, out_features=16, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=16, out_features=2, bias=True)
+  )
+)
+Epoch 1
+-------------------------------
+train loss: 10351.328125  [    0/11905]
+train loss: 2049.814941  [ 3200/11905]
+train loss: 374.854523  [ 6400/11905]
+train loss: 61.727188  [ 9600/11905]
+Avg validation loss: 32.026808
+Epoch 2
+-------------------------------
+train loss: 25.847515  [    0/11905]
+train loss: 16.285736  [ 3200/11905]
+train loss: 23.383453  [ 6400/11905]
+train loss: 9.282219  [ 9600/11905]
+Avg validation loss: 11.814227
+Epoch 3
+-------------------------------
+train loss: 9.617196  [    0/11905]
+train loss: 14.205101  [ 3200/11905]
+train loss: 8.036387  [ 6400/11905]
+train loss: 3.787623  [ 9600/11905]
+Avg validation loss: 10.327578
+Epoch 4
+-------------------------------
+train loss: 10.611530  [    0/11905]
+train loss: 9.551704  [ 3200/11905]
+train loss: 9.171922  [ 6400/11905]
+train loss: 5.519784  [ 9600/11905]
+Avg validation loss: 10.647043
+Epoch 5
+-------------------------------
+train loss: 7.132674  [    0/11905]
+train loss: 27.731527  [ 3200/11905]
+train loss: 5.150846  [ 6400/11905]
+train loss: 42.928574  [ 9600/11905]
+Avg validation loss: 10.218551
+Done!

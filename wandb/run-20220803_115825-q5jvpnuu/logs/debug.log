@@ -1,0 +1,30 @@
+2022-08-03 11:58:25,636 INFO    MainThread:39909 [wandb_setup.py:_flush():76] Configure stats pid to 39909
+2022-08-03 11:58:25,636 INFO    MainThread:39909 [wandb_setup.py:_flush():76] Loading settings from /Users/chasearmer/.config/wandb/settings
+2022-08-03 11:58:25,636 INFO    MainThread:39909 [wandb_setup.py:_flush():76] Loading settings from /Users/chasearmer/metabolomics/DeepSim/wandb/settings
+2022-08-03 11:58:25,636 INFO    MainThread:39909 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}
+2022-08-03 11:58:25,636 INFO    MainThread:39909 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train_model.py', 'program': '/Users/chasearmer/metabolomics/DeepSim/train_model.py'}
+2022-08-03 11:58:25,637 INFO    MainThread:39909 [wandb_init.py:_log_setup():461] Logging user logs to /Users/chasearmer/metabolomics/DeepSim/wandb/run-20220803_115825-q5jvpnuu/logs/debug.log
+2022-08-03 11:58:25,637 INFO    MainThread:39909 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/chasearmer/metabolomics/DeepSim/wandb/run-20220803_115825-q5jvpnuu/logs/debug-internal.log
+2022-08-03 11:58:25,637 INFO    MainThread:39909 [wandb_init.py:init():495] calling init triggers
+2022-08-03 11:58:25,637 INFO    MainThread:39909 [wandb_init.py:init():499] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'epochs': 5, 'batch_size': 16}
+2022-08-03 11:58:25,637 INFO    MainThread:39909 [wandb_init.py:init():548] starting backend
+2022-08-03 11:58:25,637 INFO    MainThread:39909 [wandb_init.py:init():552] setting up manager
+2022-08-03 11:58:25,639 INFO    MainThread:39909 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-08-03 11:58:25,642 INFO    MainThread:39909 [wandb_init.py:init():558] backend started and connected
+2022-08-03 11:58:25,644 INFO    MainThread:39909 [wandb_init.py:init():636] updated telemetry
+2022-08-03 11:58:25,645 INFO    MainThread:39909 [wandb_init.py:init():668] communicating run to backend with 30 second timeout
+2022-08-03 11:58:25,954 INFO    MainThread:39909 [wandb_run.py:_on_init():1981] communicating current version
+2022-08-03 11:58:26,079 INFO    MainThread:39909 [wandb_run.py:_on_init():1985] got version response 
+2022-08-03 11:58:26,080 INFO    MainThread:39909 [wandb_init.py:init():700] starting run threads in backend
+2022-08-03 11:58:31,151 INFO    MainThread:39909 [wandb_run.py:_console_start():1961] atexit reg
+2022-08-03 11:58:31,152 INFO    MainThread:39909 [wandb_run.py:_redirect():1819] redirect: SettingsConsole.WRAP_RAW
+2022-08-03 11:58:31,152 INFO    MainThread:39909 [wandb_run.py:_redirect():1884] Wrapping output streams.
+2022-08-03 11:58:31,152 INFO    MainThread:39909 [wandb_run.py:_redirect():1906] Redirects installed.
+2022-08-03 11:58:31,152 INFO    MainThread:39909 [wandb_init.py:init():732] run started, returning control to user process
+2022-08-03 11:58:32,673 INFO    MainThread:39909 [wandb_watch.py:watch():47] Watching
+2022-08-03 11:58:34,173 INFO    MainThread:39909 [wandb_watch.py:watch():47] Watching
+2022-08-03 11:58:35,632 INFO    MainThread:39909 [wandb_watch.py:watch():47] Watching
+2022-08-03 11:58:37,132 INFO    MainThread:39909 [wandb_watch.py:watch():47] Watching
+2022-08-03 11:58:38,611 INFO    MainThread:39909 [wandb_watch.py:watch():47] Watching
+2022-08-03 11:58:42,385 WARNING MsgRouterThr:39909 [router.py:message_loop():76] message_loop has been closed

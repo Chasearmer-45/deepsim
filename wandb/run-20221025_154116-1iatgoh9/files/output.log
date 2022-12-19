@@ -1,0 +1,50 @@
+Shape of X: torch.Size([32, 14])
+Shape of y: torch.Size([32, 2]) torch.float32
+Using cpu device
+NeuralNetwork(
+  (linear_relu_stack): Sequential(
+    (0): Linear(in_features=14, out_features=16, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=16, out_features=16, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=16, out_features=2, bias=True)
+  )
+)
+Epoch 1
+-------------------------------
+train loss: 7505.683105  [    0/11755]
+train loss: 21618.974609  [ 3200/11755]
+train loss: 11750.782227  [ 6400/11755]
+train loss: 7067.456543  [ 9600/11755]
+Avg validation loss: 7073.806566
+Epoch 2
+-------------------------------
+train loss: 8209.775391  [    0/11755]
+train loss: 10095.891602  [ 3200/11755]
+train loss: 5056.092773  [ 6400/11755]
+train loss: 2368.357178  [ 9600/11755]
+Avg validation loss: 3460.043462
+Epoch 3
+-------------------------------
+train loss: 9014.397461  [    0/11755]
+train loss: 1691.059082  [ 3200/11755]
+train loss: 1659.831909  [ 6400/11755]
+train loss: 1455.549927  [ 9600/11755]
+Avg validation loss: 1673.760163
+Epoch 4
+-------------------------------
+train loss: 1015.871521  [    0/11755]
+train loss: 1631.397339  [ 3200/11755]
+train loss: 1347.766602  [ 6400/11755]
+Traceback (most recent call last):
+  File "evaluate_model.py", line 1, in <module>
+    from train_model import NeuralNetwork
+  File "/Users/chasearmer/metabolomics/DeepSim/train_model.py", line 146, in <module>
+    model = train_model(**wandb.config)
+  File "/Users/chasearmer/metabolomics/DeepSim/train_model.py", line 127, in train_model
+    train(train_dataloader, model, loss_fn, optimizer, epoch, device)
+  File "/Users/chasearmer/metabolomics/DeepSim/train_model.py", line 51, in train
+    loss = loss_fn(pred, y)
+  File "/Users/chasearmer/miniconda3/envs/tellurium/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1124, in _call_impl
+    def _call_impl(self, *input, **kwargs):
+KeyboardInterrupt

@@ -1,0 +1,88 @@
+Shape of X: torch.Size([32, 14])
+Shape of y: torch.Size([32, 2]) torch.float32
+Using cpu device
+NeuralNetwork(
+  (linear_relu_stack): Sequential(
+    (0): Linear(in_features=14, out_features=16, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=16, out_features=16, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=16, out_features=2, bias=True)
+  )
+)
+Epoch 1
+-------------------------------
+train loss: 1881.702271  [    0/ 4617]
+train loss: 969.158936  [ 3200/ 4617]
+Avg validation loss: 1811.550569
+Epoch 2
+-------------------------------
+train loss: 3650.508057  [    0/ 4617]
+train loss: 1953.549683  [ 3200/ 4617]
+Avg validation loss: 1383.525826
+Epoch 3
+-------------------------------
+train loss: 846.033447  [    0/ 4617]
+train loss: 653.831360  [ 3200/ 4617]
+Avg validation loss: 978.252537
+Epoch 4
+-------------------------------
+train loss: 497.789642  [    0/ 4617]
+train loss: 926.687256  [ 3200/ 4617]
+Avg validation loss: 754.615341
+Epoch 5
+-------------------------------
+train loss: 501.038605  [    0/ 4617]
+train loss: 825.123413  [ 3200/ 4617]
+Avg validation loss: 601.479856
+Epoch 6
+-------------------------------
+train loss: 367.469482  [    0/ 4617]
+train loss: 406.068542  [ 3200/ 4617]
+Avg validation loss: 469.035891
+Epoch 7
+-------------------------------
+train loss: 921.928467  [    0/ 4617]
+train loss: 579.106506  [ 3200/ 4617]
+Avg validation loss: 364.883644
+Epoch 8
+-------------------------------
+train loss: 274.238831  [    0/ 4617]
+train loss: 230.875275  [ 3200/ 4617]
+Avg validation loss: 289.314082
+Epoch 9
+-------------------------------
+train loss: 308.536011  [    0/ 4617]
+train loss: 180.005249  [ 3200/ 4617]
+Avg validation loss: 237.597571
+Epoch 10
+-------------------------------
+train loss: 159.610153  [    0/ 4617]
+train loss: 166.187286  [ 3200/ 4617]
+Avg validation loss: 201.928364
+Epoch 11
+-------------------------------
+train loss: 163.349823  [    0/ 4617]
+train loss: 268.330322  [ 3200/ 4617]
+Avg validation loss: 175.686477
+Epoch 12
+-------------------------------
+train loss: 487.559570  [    0/ 4617]
+train loss: 152.608566  [ 3200/ 4617]
+Avg validation loss: 154.124837
+Epoch 13
+-------------------------------
+train loss: 125.236328  [    0/ 4617]
+train loss: 123.534653  [ 3200/ 4617]
+Avg validation loss: 134.574336
+Epoch 14
+-------------------------------
+train loss: 110.015945  [    0/ 4617]
+train loss: 163.871857  [ 3200/ 4617]
+Avg validation loss: 116.930927
+Epoch 15
+-------------------------------
+train loss: 127.121101  [    0/ 4617]
+train loss: 54.649883  [ 3200/ 4617]
+Avg validation loss: 100.855954
+Done!

@@ -1,0 +1,97 @@
+Shape of X: torch.Size([32, 31])
+Shape of y: torch.Size([32, 5]) torch.float32
+Using cpu device
+NeuralNetwork(
+  (linear_relu_stack): Sequential(
+    (0): Linear(in_features=31, out_features=64, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=64, out_features=64, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=64, out_features=64, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=64, out_features=64, bias=True)
+    (7): ReLU()
+    (8): Linear(in_features=64, out_features=5, bias=True)
+  )
+)
+Epoch 1
+-------------------------------
+train loss: 6348.365234  [    0/15019]
+train loss: 691.030090  [ 3200/15019]
+train loss: 153.424744  [ 6400/15019]
+train loss: 46.498631  [ 9600/15019]
+train loss: 37.666664  [12800/15019]
+Avg validation loss: 56.081471
+Epoch 2
+-------------------------------
+train loss: 62.820690  [    0/15019]
+train loss: 34.113586  [ 3200/15019]
+train loss: 53.366638  [ 6400/15019]
+train loss: 62.583984  [ 9600/15019]
+train loss: 57.757496  [12800/15019]
+Avg validation loss: 46.909926
+Epoch 3
+-------------------------------
+train loss: 51.219074  [    0/15019]
+train loss: 44.301594  [ 3200/15019]
+train loss: 26.316868  [ 6400/15019]
+train loss: 32.501743  [ 9600/15019]
+train loss: 62.550148  [12800/15019]
+Avg validation loss: 46.352082
+Epoch 4
+-------------------------------
+train loss: 33.017872  [    0/15019]
+train loss: 55.835747  [ 3200/15019]
+train loss: 49.554939  [ 6400/15019]
+train loss: 31.064175  [ 9600/15019]
+train loss: 31.519495  [12800/15019]
+Avg validation loss: 44.466838
+Epoch 5
+-------------------------------
+train loss: 42.342628  [    0/15019]
+train loss: 37.141125  [ 3200/15019]
+train loss: 61.002026  [ 6400/15019]
+train loss: 27.152655  [ 9600/15019]
+train loss: 24.794491  [12800/15019]
+Avg validation loss: 48.593280
+Epoch 6
+-------------------------------
+train loss: 62.109631  [    0/15019]
+train loss: 23.435480  [ 3200/15019]
+train loss: 28.913410  [ 6400/15019]
+train loss: 50.259487  [ 9600/15019]
+train loss: 28.000885  [12800/15019]
+Avg validation loss: 43.978170
+Epoch 7
+-------------------------------
+train loss: 38.520679  [    0/15019]
+train loss: 41.407856  [ 3200/15019]
+train loss: 23.809860  [ 6400/15019]
+train loss: 31.645456  [ 9600/15019]
+train loss: 52.984711  [12800/15019]
+Avg validation loss: 36.627898
+Epoch 8
+-------------------------------
+train loss: 53.069801  [    0/15019]
+train loss: 28.516506  [ 3200/15019]
+train loss: 37.158577  [ 6400/15019]
+train loss: 39.393021  [ 9600/15019]
+train loss: 39.904778  [12800/15019]
+Avg validation loss: 38.276218
+Epoch 9
+-------------------------------
+train loss: 43.910046  [    0/15019]
+train loss: 26.316029  [ 3200/15019]
+train loss: 23.778690  [ 6400/15019]
+train loss: 29.149349  [ 9600/15019]
+train loss: 54.096455  [12800/15019]
+Avg validation loss: 39.705741
+Epoch 10
+-------------------------------
+train loss: 31.052090  [    0/15019]
+train loss: 28.646179  [ 3200/15019]
+train loss: 27.781857  [ 6400/15019]
+train loss: 38.831226  [ 9600/15019]
+train loss: 21.686319  [12800/15019]
+Avg validation loss: 30.755991
+Done!

@@ -1,0 +1,6 @@
+Average/Median Difference: 22.7581/4.9877
+Average/Median Percent Difference: 200.4487/22.7027
+Average/Median Time Difference (Tellurium): 0.0014/0.0013
+Average/Median Time Multiplier (Tellurium): 7.174/7.0448
+Average/Median Time Difference (Copasy): 0.0006/0.0005
+Average/Median Time Multiplier (Copasy): 1.4983/1.451

@@ -1,0 +1,119 @@
+2022-12-05 13:56:20,690 INFO    StreamThr :84900 [internal.py:wandb_internal():93] W&B internal server running at pid: 84900, started at: 2022-12-05 13:56:20.689817
+2022-12-05 13:56:20,692 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: status
+2022-12-05 13:56:20,693 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: status
+2022-12-05 13:56:20,695 DEBUG   SenderThread:84900 [sender.py:send():302] send: header
+2022-12-05 13:56:20,695 INFO    WriterThread:84900 [datastore.py:open_for_write():75] open: /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221205_135620-2sy60o01/run-2sy60o01.wandb
+2022-12-05 13:56:20,695 DEBUG   SenderThread:84900 [sender.py:send():302] send: run
+2022-12-05 13:56:20,823 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-05 13:56:20,965 INFO    SenderThread:84900 [dir_watcher.py:__init__():216] watching files in: /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221205_135620-2sy60o01/files
+2022-12-05 13:56:20,966 INFO    SenderThread:84900 [sender.py:_start_run_threads():916] run started: 2sy60o01 with start time 1670277380.68477
+2022-12-05 13:56:20,966 DEBUG   SenderThread:84900 [sender.py:send():302] send: exit
+2022-12-05 13:56:20,966 INFO    SenderThread:84900 [sender.py:send_exit():438] handling exit code: 255
+2022-12-05 13:56:20,966 INFO    SenderThread:84900 [sender.py:send_exit():440] handling runtime: 0
+2022-12-05 13:56:20,966 INFO    SenderThread:84900 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-12-05 13:56:20,966 INFO    SenderThread:84900 [sender.py:send_exit():446] send defer
+2022-12-05 13:56:20,967 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: poll_exit
+2022-12-05 13:56:20,967 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:20,967 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 0
+2022-12-05 13:56:20,967 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:20,967 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-12-05 13:56:20,968 INFO    SenderThread:84900 [sender.py:transition_state():459] send defer: 1
+2022-12-05 13:56:20,968 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:20,968 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 1
+2022-12-05 13:56:20,968 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:20,968 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-12-05 13:56:20,968 INFO    SenderThread:84900 [sender.py:transition_state():459] send defer: 2
+2022-12-05 13:56:20,968 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:20,968 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 2
+2022-12-05 13:56:20,969 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:20,969 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-12-05 13:56:20,969 INFO    SenderThread:84900 [sender.py:transition_state():459] send defer: 3
+2022-12-05 13:56:20,969 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:20,969 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 3
+2022-12-05 13:56:20,969 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:20,969 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-12-05 13:56:20,969 INFO    SenderThread:84900 [sender.py:transition_state():459] send defer: 4
+2022-12-05 13:56:20,970 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:20,970 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 4
+2022-12-05 13:56:20,970 DEBUG   SenderThread:84900 [sender.py:send():302] send: summary
+2022-12-05 13:56:20,970 INFO    SenderThread:84900 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-12-05 13:56:20,970 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:20,970 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-12-05 13:56:20,971 INFO    SenderThread:84900 [sender.py:transition_state():459] send defer: 5
+2022-12-05 13:56:20,971 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:20,971 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 5
+2022-12-05 13:56:20,971 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:20,971 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-12-05 13:56:20,971 INFO    SenderThread:84900 [sender.py:transition_state():459] send defer: 6
+2022-12-05 13:56:20,971 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:20,971 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 6
+2022-12-05 13:56:20,972 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:20,972 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-12-05 13:56:20,972 INFO    SenderThread:84900 [sender.py:transition_state():459] send defer: 7
+2022-12-05 13:56:20,972 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:20,972 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 7
+2022-12-05 13:56:20,972 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:20,972 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-12-05 13:56:20,972 INFO    SenderThread:84900 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-05 13:56:21,072 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-05 13:56:21,974 INFO    SenderThread:84900 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221205_135620-2sy60o01/files/wandb-summary.json
+2022-12-05 13:56:21,974 INFO    SenderThread:84900 [dir_watcher.py:finish():392] scan: /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221205_135620-2sy60o01/files
+2022-12-05 13:56:21,974 INFO    SenderThread:84900 [dir_watcher.py:finish():406] scan save: /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221205_135620-2sy60o01/files/config.yaml config.yaml
+2022-12-05 13:56:21,975 INFO    SenderThread:84900 [dir_watcher.py:finish():406] scan save: /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221205_135620-2sy60o01/files/wandb-summary.json wandb-summary.json
+2022-12-05 13:56:21,978 INFO    SenderThread:84900 [sender.py:transition_state():459] send defer: 8
+2022-12-05 13:56:21,978 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: poll_exit
+2022-12-05 13:56:21,981 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:21,982 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 8
+2022-12-05 13:56:21,982 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:21,982 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-12-05 13:56:21,982 INFO    SenderThread:84900 [file_pusher.py:finish():171] shutting down file pusher
+2022-12-05 13:56:22,085 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-05 13:56:22,085 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: poll_exit
+2022-12-05 13:56:22,189 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-05 13:56:22,190 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: poll_exit
+2022-12-05 13:56:22,292 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-05 13:56:22,292 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: poll_exit
+2022-12-05 13:56:22,396 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-05 13:56:22,396 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: poll_exit
+2022-12-05 13:56:22,500 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-05 13:56:22,501 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: poll_exit
+2022-12-05 13:56:22,540 INFO    Thread-14 :84900 [upload_job.py:push():138] Uploaded file /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221205_135620-2sy60o01/files/config.yaml
+2022-12-05 13:56:22,540 INFO    Thread-15 :84900 [upload_job.py:push():138] Uploaded file /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221205_135620-2sy60o01/files/wandb-summary.json
+2022-12-05 13:56:22,603 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-05 13:56:22,603 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: poll_exit
+2022-12-05 13:56:22,710 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-05 13:56:22,710 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: poll_exit
+2022-12-05 13:56:22,742 INFO    Thread-11 :84900 [sender.py:transition_state():459] send defer: 9
+2022-12-05 13:56:22,742 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:22,742 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 9
+2022-12-05 13:56:22,742 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:22,742 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-12-05 13:56:22,811 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-05 13:56:23,033 INFO    SenderThread:84900 [sender.py:transition_state():459] send defer: 10
+2022-12-05 13:56:23,034 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: poll_exit
+2022-12-05 13:56:23,034 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:23,034 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 10
+2022-12-05 13:56:23,035 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:23,035 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-12-05 13:56:23,035 INFO    SenderThread:84900 [sender.py:transition_state():459] send defer: 11
+2022-12-05 13:56:23,036 DEBUG   SenderThread:84900 [sender.py:send():302] send: final
+2022-12-05 13:56:23,036 DEBUG   SenderThread:84900 [sender.py:send():302] send: footer
+2022-12-05 13:56:23,036 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: defer
+2022-12-05 13:56:23,036 INFO    HandlerThread:84900 [handler.py:handle_request_defer():164] handle defer: 11
+2022-12-05 13:56:23,037 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: defer
+2022-12-05 13:56:23,037 INFO    SenderThread:84900 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-12-05 13:56:23,139 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: poll_exit
+2022-12-05 13:56:23,139 DEBUG   SenderThread:84900 [sender.py:send_request():316] send_request: poll_exit
+2022-12-05 13:56:23,139 INFO    SenderThread:84900 [file_pusher.py:join():176] waiting for file pusher
+2022-12-05 13:56:23,472 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: sampled_history
+2022-12-05 13:56:23,473 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: get_summary
+2022-12-05 13:56:23,474 INFO    MainThread:84900 [wandb_run.py:_footer_history_summary_info():3304] rendering history
+2022-12-05 13:56:23,474 INFO    MainThread:84900 [wandb_run.py:_footer_history_summary_info():3336] rendering summary
+2022-12-05 13:56:23,474 INFO    MainThread:84900 [wandb_run.py:_footer_sync_info():3260] logging synced files
+2022-12-05 13:56:23,475 DEBUG   HandlerThread:84900 [handler.py:handle_request():141] handle_request: shutdown
+2022-12-05 13:56:23,475 INFO    HandlerThread:84900 [handler.py:finish():810] shutting down handler
+2022-12-05 13:56:24,037 INFO    WriterThread:84900 [datastore.py:close():279] close: /Users/chasearmer/metabolomics/DeepSim/wandb/run-20221205_135620-2sy60o01/run-2sy60o01.wandb
+2022-12-05 13:56:24,370 INFO    SenderThread:84900 [sender.py:finish():1312] shutting down sender
+2022-12-05 13:56:24,376 INFO    SenderThread:84900 [file_pusher.py:finish():171] shutting down file pusher
+2022-12-05 13:56:24,378 INFO    SenderThread:84900 [file_pusher.py:join():176] waiting for file pusher
+2022-12-05 13:56:24,974 INFO    MainThread:84900 [internal.py:handle_exit():80] Internal process exited

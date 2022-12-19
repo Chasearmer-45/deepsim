@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "train_model.py", line 152, in <module>
+    model = train_model(**wandb.config)
+TypeError: train_model() got an unexpected keyword argument 'step_size'

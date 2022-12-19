@@ -1,0 +1,87 @@
+Shape of X: torch.Size([16, 3])
+Shape of y: torch.Size([16, 2]) torch.float32
+Using cpu device
+NeuralNetwork(
+  (linear_relu_stack): Sequential(
+    (0): Linear(in_features=3, out_features=16, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=16, out_features=16, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=16, out_features=16, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=16, out_features=16, bias=True)
+    (7): ReLU()
+    (8): Linear(in_features=16, out_features=2, bias=True)
+  )
+)
+Epoch 1
+-------------------------------
+train loss: 5216.835449  [    0/ 6280]
+train loss: 50.742168  [ 1600/ 6280]
+train loss: 161.676010  [ 3200/ 6280]
+train loss: 17.951363  [ 4800/ 6280]
+Avg test loss: 48.165470
+Epoch 2
+-------------------------------
+train loss: 27.487305  [    0/ 6280]
+train loss: 25.189196  [ 1600/ 6280]
+train loss: 54.915070  [ 3200/ 6280]
+train loss: 37.983688  [ 4800/ 6280]
+Avg test loss: 38.341140
+Epoch 3
+-------------------------------
+train loss: 28.030712  [    0/ 6280]
+train loss: 21.599169  [ 1600/ 6280]
+train loss: 48.368958  [ 3200/ 6280]
+train loss: 17.220198  [ 4800/ 6280]
+Avg test loss: 10.710266
+Epoch 4
+-------------------------------
+train loss: 6.667487  [    0/ 6280]
+train loss: 14.062482  [ 1600/ 6280]
+train loss: 27.012218  [ 3200/ 6280]
+train loss: 5.689379  [ 4800/ 6280]
+Avg test loss: 7.166247
+Epoch 5
+-------------------------------
+train loss: 7.643396  [    0/ 6280]
+train loss: 6.058352  [ 1600/ 6280]
+train loss: 6.243615  [ 3200/ 6280]
+train loss: 5.440693  [ 4800/ 6280]
+Avg test loss: 3.606272
+Epoch 6
+-------------------------------
+train loss: 2.131550  [    0/ 6280]
+train loss: 6.191051  [ 1600/ 6280]
+train loss: 35.043098  [ 3200/ 6280]
+train loss: 4.443306  [ 4800/ 6280]
+Avg test loss: 3.326189
+Epoch 7
+-------------------------------
+train loss: 2.416347  [    0/ 6280]
+train loss: 4.066065  [ 1600/ 6280]
+train loss: 7.783754  [ 3200/ 6280]
+train loss: 2.236540  [ 4800/ 6280]
+Avg test loss: 5.279820
+Epoch 8
+-------------------------------
+train loss: 2.932755  [    0/ 6280]
+train loss: 5.521347  [ 1600/ 6280]
+train loss: 27.748940  [ 3200/ 6280]
+train loss: 3.324680  [ 4800/ 6280]
+Avg test loss: 3.612829
+Epoch 9
+-------------------------------
+train loss: 1.552308  [    0/ 6280]
+train loss: 2.498318  [ 1600/ 6280]
+train loss: 2.836542  [ 3200/ 6280]
+train loss: 0.577092  [ 4800/ 6280]
+Avg test loss: 5.207168
+Epoch 10
+-------------------------------
+train loss: 6.883616  [    0/ 6280]
+train loss: 2.403550  [ 1600/ 6280]
+train loss: 16.962276  [ 3200/ 6280]
+train loss: 2.387177  [ 4800/ 6280]
+Avg test loss: 2.718961
+Done!

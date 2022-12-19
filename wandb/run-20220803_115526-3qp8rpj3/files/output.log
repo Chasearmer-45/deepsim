@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/chasearmer/metabolomics/DeepSim/train_model.py", line 122, in <module>
+    train_model(*wandb.config)
+  File "/Users/chasearmer/miniconda3/envs/tellurium/lib/python3.7/site-packages/wandb/sdk/wandb_config.py", line 127, in __getitem__
+    return self._items[key]
+KeyError: 0
